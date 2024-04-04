@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sizer {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.headerDropdown {
+  @apply flex items-center justify-center;
+}
+
+.navsvgSpan {
+  @apply absolute bg-[#18181B] text-sm w-6 flex items-center justify-center text-white rounded-full bottom-8 left-4;
+}
+.navsvg {
+  @apply text-[white];
+}
+.account_sidebar > div {
+  @apply border-b px-4  py-4 text-center space-y-4;
+}
+
+.account_sidebar > div p {
+  @apply w-full text-center space-y-4 font-bold;
+}
+
+.accountView {
+}
+
+.accountView > div {
+  @apply shadow-md   space-y-4 p-5  flex flex-col items-start px-1 sm:py-6;
+}
+.accountView > div h3 {
+  @apply text-sm flex justify-around items-center;
+}
