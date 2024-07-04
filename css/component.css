@@ -1,66 +1,62 @@
-
-
 .headerDropdown {
-    @apply hover:text-primary
+  @apply hover:text-primary;
 }
-.headerDropdown p{
-    @apply hover:text-[black] text-[black]
+.headerDropdown p {
+  @apply hover:text-[black] text-[black];
 }
-.dropdown{
-    @apply border  flex flex-col items-start  rounded-sm opacity-0 invisible group-hover:opacity-100 group-hover:visible z-10 bg-white absolute top-full transition duration-300  py-2  shadow-md
+.dropdown {
+  @apply border  flex flex-col items-start  rounded-sm opacity-0 invisible group-hover:opacity-100 group-hover:visible z-10 bg-white absolute top-full transition duration-300  py-2  shadow-md;
 }
-.service_con{
-    @apply border border-primary w-56 py-4 flex items-center justify-around md:w-52 
-   
+.service_con {
+  @apply border border-primary w-56 py-4 flex items-center justify-around md:w-52;
 }
-.service-header{
-    @apply  flex  items-center justify-center
+.service-header {
+  @apply flex  items-center justify-center;
 }
-.service svg{
-    @apply text-primary h-10 w-10
+.service svg {
+  @apply text-primary h-10 w-10;
 }
-.service p{
-    @apply text-[12px] text-[gray]
+.service p {
+  @apply text-[12px] text-[gray];
 }
-.service-text_con{
-    @apply  flex flex-col justify-center items-center
+.service-text_con {
+  @apply flex flex-col justify-center items-center;
 }
 
 /* Footer */
-.footer-box{
-    @apply  py-10
+.footer-box {
+  @apply py-10;
 }
 
-.footer-section4  svg{
-    @apply h-5 text-[red]
+.footer-section4 svg {
+  @apply h-5 text-[red];
 }
 
-.footer-box-sub{
-@apply flex flex-col items-start  justify-center  gap-2 px-2 py-3 sm:px-1
+.footer-box-sub {
+  @apply flex flex-col items-start  justify-center  gap-2 px-2 py-3 sm:px-1;
 }
-.footer-box:last-child{
-    @apply items-start
+.footer-box:last-child {
+  @apply items-start;
 }
-.logos{
-    @apply flex gap-4
+.logos {
+  @apply flex gap-4;
 }
 /* .ratings{
     @apply 
 } */
 
-.floor svg{
-    @apply h-9 w-10 sm:h-6
+.floor svg {
+  @apply h-9 w-10 sm:h-6;
 }
-.floor_span{
-    @apply absolute bg-primary text-sm w-6 flex items-center justify-center text-white rounded-full bottom-14 left-4 sm:bottom-11
+.floor_span {
+  @apply absolute bg-primary text-sm w-6 flex items-center justify-center text-white rounded-full bottom-14 left-4 sm:bottom-11;
 }
-.floor_menu{
-    @apply flex flex-col items-center justify-center gap-2 px-2  sm:px-1
+.floor_menu {
+  @apply flex flex-col items-center justify-center gap-2 px-2  sm:px-1;
 }
-.floor_menu h2{
-    @apply sm:text-sm
+.floor_menu h2 {
+  @apply sm:text-sm;
 }
-.gridPoint{
-    display: grid;
- 
+.gridPoint {
+  display: grid;
 }

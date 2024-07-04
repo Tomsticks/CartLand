@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../../css/component.css";
+import "../../../css/component.css";
 export default function service() {
   return (
     <div className="sizer py-12 ">

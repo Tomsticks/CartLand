@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { listTopranking } from "../../data/Ranking";
+import { listTopranking } from "../../../data/Ranking";
 
 // console.log(listTopranking);
 

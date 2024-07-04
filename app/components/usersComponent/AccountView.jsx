@@ -1,45 +1,54 @@
+"use client";
 import React from "react";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 export default function AccountView() {
   return (
-    <div className="">
+    <div className=" border border-[green]">
       <div className="accountView grid  grid-cols-3 md:grid-cols-1 sm:space-y-10 ">
-        <div>
-          <h3 className="flex space-x-8 ">
-            <h1> Personal Profile</h1>
-            <a href="" className="text-primary">
-              Edit
-            </a>
-          </h3>
-          <p>
-            {" "}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus.
-          </p>
-        </div>
-        <div>
-          <h3 className="flex space-x-8 ">
-            <h1> Personal Profile</h1>
-            <a href="" className="text-primary">
-              Edit
-            </a>
-          </h3>
-          <p>
-            {" "}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus.
-          </p>
-        </div>
-        <div>
-          <h3 className="flex space-x-8 ">
-            <h1> Personal Profile</h1>
-            <a href="" className="text-primary">
-              Edit
-            </a>
-          </h3>
-          <p>
-            {" "}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus.
-          </p>
-        </div>
+        <Card>
+          <CardHeader>
+            <CardTitle>Card Title</CardTitle>
+            <CardDescription>Card Description</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>Card Content</p>
+          </CardContent>
+          <CardFooter>
+            <p>Card Footer</p>
+          </CardFooter>
+        </Card>
+        <Card>
+          <CardHeader>
+            <CardTitle>Card Title</CardTitle>
+            <CardDescription>Card Description</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>Card Content</p>
+          </CardContent>
+          <CardFooter>
+            <p>Card Footer</p>
+          </CardFooter>
+        </Card>
+        <Card>
+          <CardHeader>
+            <CardTitle>Card Title</CardTitle>
+            <CardDescription>Card Description</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p>Card Content</p>
+          </CardContent>
+          <CardFooter>
+            <p>Card Footer</p>
+          </CardFooter>
+        </Card>
       </div>
     </div>
   );

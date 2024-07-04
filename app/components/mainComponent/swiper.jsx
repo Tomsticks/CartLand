@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
-import iphone11 from "../../public/iphone11Promax.png";
-import iphone12 from "../../public/iphone-12promax.png";
-import iphonexr from "../../public/iphone-xr.png";
+import iphone11 from "../../../public/iphone11Promax.png";
+import iphone12 from "../../../public/iphone-12promax.png";
+import iphonexr from "../../../public/iphone-xr.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 
@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import "../../css/swiper.css";
+import "../../../css/swiper.css";
 
 export default () => {
   const details = [

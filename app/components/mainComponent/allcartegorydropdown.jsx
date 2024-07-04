@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import shoelink from "../../public/icons/shoes.png";
-import computerlink from "../../public/icons/monitor.png";
-import mobileLink from "../../public/icons/smartphone.png";
-import Watchlink from "../../public/icons/watch.png";
-import menlink from "../../public/icons/man.png";
-import womenlink from "../../public/icons/woman.png";
-import headphonelink from "../../public/icons/headphones.png";
-import electronicslink from "../../public/icons/plug.png";
+import shoelink from "../../../public/icons/shoes.png";
+import computerlink from "../../../public/icons/monitor.png";
+import mobileLink from "../../../public/icons/smartphone.png";
+import Watchlink from "../../../public/icons/watch.png";
+import menlink from "../../../public/icons/man.png";
+import womenlink from "../../../public/icons/woman.png";
+import headphonelink from "../../../public/icons/headphones.png";
+import electronicslink from "../../../public/icons/plug.png";
 
 export default function () {
   const herodropdown = [

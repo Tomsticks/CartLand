@@ -1,9 +1,9 @@
 import React from "react";
 import Button from "./button";
-import "../../css/component.css";
-import Twitterlogo from "../../public/twitter.png";
-import FacebookLogo from "../../public/facebook.png";
-import instagramLogo from "../../public/insta2.png";
+import "../../../css/component.css";
+import Twitterlogo from "../../../public/twitter.png";
+import FacebookLogo from "../../../public/facebook.png";
+import instagramLogo from "../../../public/insta2.png";
 import Link from "next/link";
 import Image from "next/image";
 

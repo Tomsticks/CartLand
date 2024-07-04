@@ -1,5 +1,5 @@
 import React from "react";
-import "../../css/component.css";
+import "../../../css/component.css";
 
 export default function FloorMenu(props) {
   const openBar = props.openBar;
